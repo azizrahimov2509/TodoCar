@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="size">
+    <section class="main">
+        <div class="container">
+        <h2 style="color: white; font-size: 30px;">Include a new model</h2>
+        <form id="carForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="price">Price($):</label>
+                <input type="number" id="price" name="price" required>
+            </div>
+            <div class="form-group">
+                <label for="speed">Speed(km/h):</label>
+                <input type="text" id="speed" name="speed" required>
+            </div>
+            <div class="form-group">
+                <label for="imgLink">Image Link:</label>
+                <input type="url" id="imgLink" name="imgLink" required>
+            </div>
+            <div class="form-group">
+                <label for="color">Color:</label>
+                <input type="color" id="color" name="color" required>
+            </div>
+            <button type="submit">Add Car</button>
+        </form>
+    </div>
+</section>
+    
+
+<section class="result">
+     <div class="car-list" id="carList">
+
+     </div>
+</section>
+</div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
+
